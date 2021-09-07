@@ -14,13 +14,34 @@ body
 }
 .logo img
 {
+    float:left;
     height:60px;
     padding: 0px 20px;
     box-sizing: border-box;
-    border: 1px solid #FFFFFF;
+    /* border: 1px solid #FFFFFF; */
 }
 .menu-left
 {
     float: left;
     margin: 10px 50px;
+}
+.menu-right
+{
+    float: right;
+}
+.menu ul
+{
+    list-style: none;
+    margin: 0px 20px;
+    display: flex;
+}
+.menu ul li a
+{
+    display: block;
+    margin:10px 25px;
+    text-decoration: none;
+    font-weight: 200;
+    color:#FFFFFF;
+    font-size: 12px;
+    padding:10px 25px;
 }
