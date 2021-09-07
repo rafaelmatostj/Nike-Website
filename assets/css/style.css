@@ -45,3 +45,20 @@ body
     font-size: 12px;
     padding:10px 25px;
 }
+.search-box
+{
+    height:18px;
+    padding:10px;
+    border-bottom: 1px solid #FFFFFF;
+    margin: 10px 50px;
+    background-color: transparent;
+}
+input[type="search"]
+{
+    background-color: transparent;
+    width: 170px;
+    border:none;
+    outline: none;
+    text-align: center;
+    color:#FFFFFF;
+}
